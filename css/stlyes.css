@@ -1,4 +1,4 @@
-/* base layout styles */
+/* header layout styles */
 
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -11,5 +11,15 @@
 
 .nav-links {
     list-style: none;
-    font-family: ;
+    font-size: larger;
+    font-weight: 400;
+    padding: .75em;
+}   
+
+.header-image-wrapper {
+    padding-top: 5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
