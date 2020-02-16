@@ -45,6 +45,12 @@ p {
     width: 100%;
 }
 
+.h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 0.5em;
+}
+
 .container {
     padding: .5em;
     text-align: center;
@@ -57,3 +63,15 @@ p {
     margin-right: auto;
     width: 100%;
 }
+
+/* Footer*/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(159, 159, 159);
+    color: black;
+    text-align: center;
+  }
