@@ -1,0 +1,15 @@
+/* base layout styles */
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    font-weight: 300;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    font-family: ;
+}
