@@ -100,3 +100,38 @@ footer p {
     text-align: center;
     padding: 20px 0;
 }
+
+.container p {
+    max-width: 90%;
+    text-align: center;
+    margin: auto;
+    line-height: 1.4em;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footborder {
+    max-width: 90%;
+    margin: 30px auto 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+.footborder nav{
+    display: none;
+}
+
+.footborder h3 {
+    float: left;
+    margin: 23px 0;
+}
+
+.backtotop {
+    float: right;
+    margin: 23px 0;
+}
