@@ -62,5 +62,41 @@ li a {
     color: #333333;
 }
 
+header p {
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    line-height: 1.3em;
+}
 
+main {
+    display: block;
+    background-color: white;
+    width: 100%;
+    padding: 30px 0;
+}
 
+footer {
+    margin-top: 40px;
+}
+
+footer p {
+    max-width: 90%;
+    margin: 10px auto;
+    line-height: 1.5em;
+}
+
+/* class stlyes  */
+
+.header-image {
+    display: block;
+    max-width: 60%;
+    margin: 30px auto;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+}
