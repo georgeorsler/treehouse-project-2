@@ -187,3 +187,91 @@ footer p {
   #portfolio {
     margin-bottom: 40px;
   }
+
+  /* MEDIA QUERIES | TABLET */
+
+  @media {min-width: 768px} {
+    header {
+        text-align: center;
+      }
+      
+      nav {
+        display: block;
+      }
+      
+      li {
+        background-color: #cccccc2e;
+        display: inline-block;
+        margin: 0 10px;
+        padding: 10px 40px;
+      }
+      li a {
+        display: inline-block;
+      }
+      
+      .twocolumn {
+        max-width: 90%;
+        margin: auto;
+      }
+      
+      .project {
+        width: 50%;
+        float: left;
+        padding: 10px 10px 50px 10px;
+      }
+      
+      .project p {
+        min-height: 70px;
+      }
+      
+      header img{
+        float: right;
+        width: 40%;
+        padding-bottom: 50px;
+        max-width: none;
+      }
+      
+      header p {
+        float: left;
+        width: 50%;
+        margin-left: 20px;
+        text-align: left;
+        padding-right: 10px;
+        padding-top: 30px;
+        font-size: 1.3em;
+      }
+      
+      .backtotop {
+        display: none;
+      }
+      
+      .skillcard li {
+        display: block;
+      }
+      
+      .skillcard ul {
+        max-width: 50%;
+      }
+      
+      .skillcard {
+        padding-bottom: 20px;
+      }
+      
+      footer p {
+        max-width: 60%;
+      }
+      
+      .footborder nav {
+        padding-top: 7px;
+        display: inline-block;
+        list-style-type: none;
+        float: right;
+      }
+      
+      .footborder li {
+        padding: 0;
+        margin: 0 10px;
+        background-color: #f9f9f9;
+      }
+      }
+  }
