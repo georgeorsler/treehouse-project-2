@@ -190,7 +190,8 @@ footer p {
 
   /* MEDIA QUERIES | TABLET */
 
-  @media {min-width: 768px} {
+  @media (min-width: 768px) {
+
     header {
         text-align: center;
       }
@@ -214,13 +215,13 @@ footer p {
         margin: auto;
       }
       
-      .project {
+      .container {
         width: 50%;
         float: left;
         padding: 10px 10px 50px 10px;
       }
       
-      .project p {
+      .container p {
         min-height: 70px;
       }
       
@@ -272,6 +273,5 @@ footer p {
         padding: 0;
         margin: 0 10px;
         background-color: #f9f9f9;
-      }
       }
   }
