@@ -1,7 +1,7 @@
 /* header layout styles */
 
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
@@ -274,4 +274,77 @@ footer p {
         margin: 0 10px;
         background-color: #f9f9f9;
       }
+  }
+
+  /* MEDIA QUERIES | DESKTOP */
+
+  @media (min-width: 1024px) {
+  
+    header {
+      margin: 30px auto 0;
+    }
+    
+    li {
+      background-color: #f9f9f9;
+      padding: 10px 20px;
+    }
+    
+    li a {
+      text-decoration: underline;
+    }
+    
+    header h1 {
+      float: left;
+      margin: 20px;
+    }
+    
+    header nav {
+      float: right;
+      margin: 20px 0 0 0;
+    }
+    
+    header ul {
+      margin: 0;
+    }
+    
+    header p {
+      padding-top: 0;
+      margin-top: 40px;
+    }
+    
+    .header-image {
+      float: right;
+      max-width: 60%;
+      margin: 60px 10px 0 0;
+    }
+    
+    main {
+      width: 95%;
+      margin: auto;
+    }
+    
+    #portfolio {
+      margin: 40px auto;
+    }
+    
+    .twocolumn {
+        max-width: 97%;
+        margin: auto;
+    }
+    
+    .p.container {
+      width: 33%;
+      display: inline-block;
+      padding: 10px 10px 50px 10px;
+    }
+    
+    .skills {
+      width: 95%;
+      margin: auto;
+    }
+    
+    footer p {
+      max-width: 50%;
+    }
+    
   }
